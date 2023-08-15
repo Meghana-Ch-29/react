@@ -80,12 +80,45 @@
   font-weight: italic;
 }
 .welcome-para {
-  font-size: 24px;
+  font-size: 22px;
   margin-top: -30px;
   margin-left: 160px;
-  margin-right:800px;
+  margin-right:10px;
   font-family: 'Playfair Display';
   text-align: left;
   line-height: 1.5;
 }
 
+.carousel-root {
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width as needed */
+  margin-top: -185px;
+  margin-left: 400px;
+  float: right; /* Center the carousel */
+}
+
+/* Adjust the carousel slide's style */
+.carousel .slide {
+  background-color: #C2F0FF; /* Set a background color */
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px #0000001a; /* Add a shadow */
+  overflow: hidden; /* Hide overflow content */
+}
+/* Adjust the carousel image's style */
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Set a maximum image height */
+  object-fit: cover; /* Scale the image while preserving aspect ratio */
+}
+
+/* Adjust the carousel indicators' style */
+.carousel .thumbs-wrapper {
+  display: none; /* Hide the indicators if you don't need them */
+}
+.carousel-container {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 250px; /* Adjust the margin-top value to move the carousel higher */
+}
