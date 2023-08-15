@@ -1,3 +1,4 @@
+/* src/App.css */
 .App {
   text-align: center;
 }
@@ -35,4 +36,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #C2F0FF;
+  display: flex; /* Add a flex display to align items horizontally */
+  align-items: center;
+  padding-left: 150px;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin: 0;
+  margin-top: -250px;
+  display: flex;
+  align-items: center;
+  position: relative; /* Add position relative for the pseudo-element */
+  color: #007bff;
+}
+
+.first-letter i {
+  font-size: 100px;
+  font-style: italic;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.content h1::before {
+  content: '';
+  position: absolute;
+  bottom: 20px; /* Adjust this value to move the line closer to the text */
+  left: 0;
+  width: 250%;
+  height: 2px;
+  background-color: black;
+}
+
+.welcome-text {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-top: 200px; /* Adjust the margin-top value to move the text higher */
 }

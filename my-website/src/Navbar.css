@@ -56,3 +56,10 @@ a {
   position: relative;
   top: 35px; /* Adjust this value to move the text down */
 }
+
+/* Navbar.css */
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color:#C2F0FF ;
+}

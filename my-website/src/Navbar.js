@@ -19,16 +19,22 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav>
-      <ul>
-        <li className="logo">
-          <img src={logoImage} alt="Logo" />
-        </li>
-        <li className="specific-position"><a href="#">Patients</a></li>
-        <li className="specific-position"><a href="#">New Patient</a></li>
-        <li className="specific-position"><a href="#">SignUp/Login</a></li>
-      </ul>
-    </nav>
+    <div>
+      <nav>
+        <ul>
+          <li className="logo">
+            <img src={logoImage} alt="Logo" />
+          </li>
+          <li className="specific-position"><a href="#">Patients</a></li>
+          <li className="specific-position"><a href="#">New Patient</a></li>
+          <li className="specific-position"><a href="#">SignUp/Login</a></li>
+        </ul>
+      </nav>
+      {/* Add your text or content here */}
+      <div className="content">
+        <h2>Welcome to Our Website</h2>
+      </div>
+    </div>
   );
 };
 
