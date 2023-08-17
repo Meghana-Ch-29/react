@@ -122,3 +122,12 @@
   margin-top: 20px;
   margin-left: 250px; /* Adjust the margin-top value to move the carousel higher */
 }
+
+.disease-info {
+  font-size: 22px;
+  margin-top: 250px;
+  margin-left: 160px;
+  font-family: 'Helvetica';
+  text-align: left;
+ 
+}

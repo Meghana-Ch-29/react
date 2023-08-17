@@ -31,6 +31,9 @@ function App() {
       <div className="welcome-para">
         <i>A powerful tool designed to assist in the early detection of respiratory diseases. Our platform employs cutting-edge technology to analyze X-ray images and provide valuable insights into the probability of several respiratory conditions, including pneumonia, tuberculosis, lung cancer, and COVID-19.</i>
       </div>
+      <div className="disease-info">
+      <h3>Lung Diseases Information</h3>
+      </div> 
     </div>
   );
 }
